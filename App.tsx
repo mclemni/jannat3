@@ -5,13 +5,13 @@ import { Menu, X, Globe, Phone, Mail, MapPin, Facebook, Instagram, Linkedin, Che
 import { Language, TranslationSchema } from './types';
 import { translations } from './translations';
 
-// Pages
-import Home from './pages/Home';
-import About from './pages/About';
-import Services from './pages/Services';
-import Projects from './pages/Projects';
-import ProjectSingle from './pages/ProjectSingle';
-import Contact from './pages/Contact';
+// Pages - Moved to root for better build stability
+import Home from './Home';
+import About from './About';
+import Services from './Services';
+import Projects from './Projects';
+import ProjectSingle from './ProjectSingle';
+import Contact from './Contact';
 
 interface LanguageContextType {
   lang: Language;
