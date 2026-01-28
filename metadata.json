@@ -1,0 +1,7 @@
+{
+  "name": "Jannat Al-Fayhaa Co. - Corporate Website",
+  "description": "A professional bilingual corporate website for Jannat Al-Fayhaa Co. specialized in general contracting, trading, and transport.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
